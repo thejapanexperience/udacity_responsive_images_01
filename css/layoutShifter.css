@@ -9,11 +9,12 @@ h1 {
   padding: 0;
 }
 
-#container2 {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+.image {
+  width: 50%;
+  height: 50%;
 }
+
+/* ROW of IMAGES */
 
 .imageRowBox {
   width: 100%;
@@ -38,26 +39,6 @@ img.imageRow:last-of-type {
 .centerHeader {
   text-align: center;
 }
-
-.image {
-  width: 50%;
-  height: 50%;
-}
-
-.box {
-  height: 150px;
-  width: 100%;
-  text-align: center;
-}
-
-.button {
-  color: red;
-  background-color: purple;
-  width: 100%;
-  min-height: 48px;
-  /*margin: 40px;*/
-}
-
 
 /*@media screen and (min-width: 450px) {
   .dark_blue { order: 1; width: 50%; height: 300px;}
