@@ -1,0 +1,29 @@
+{
+  "name": "08_udacity_responsive_images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-respimg": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0",
+    "grunt-respimg": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejapanexperience/udacity_responsive_images_01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thejapanexperience/udacity_responsive_images_01/issues"
+  },
+  "homepage": "https://github.com/thejapanexperience/udacity_responsive_images_01#readme"
+}
