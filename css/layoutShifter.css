@@ -2,11 +2,24 @@ h1 {
   color: green;
 }
 
+body {
+  background-color: lime;
+  margin: 0;
+}
 .container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+}
+
+.header {
+  width: 50%;
+  font-size: 6vw;
+}
+
+.centerHeader {
+  text-align: center;
 }
 
 .image {
@@ -31,14 +44,22 @@ img.imageRow:last-of-type {
   margin-right: 0;
 }
 
-.header {
-  width: 50%;
-  font-size: 6vw;
+/*WIDE IMAGE*/
+.imageWide {
+  width: 100vw;
 }
 
-.centerHeader {
-  text-align: center;
+/*WIDE IMAGE*/
+.tallBox {
+  width: 100%;
 }
+.imageTall {
+  height: 100vh;
+  object-position: center;
+  overflow: hidden;
+}
+
+
 
 /*@media screen and (min-width: 450px) {
   .dark_blue { order: 1; width: 50%; height: 300px;}
